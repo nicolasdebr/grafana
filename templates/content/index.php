@@ -1,1 +1,1 @@
-<iframe src="https://play.grafana.org/d/000000012/grafana-play-home?orgId=1" width="650" height="300" frameborder="0"></iframe>
+<iframe src="https://snapshot.raintank.io/dashboard-solo/snapshot/y7zwi2bZ7FcoTlB93WN7yWO4aMiz3pZb?from=1493369923321&to=1493377123321&panelId=4" allowfullscreen></iframe>
