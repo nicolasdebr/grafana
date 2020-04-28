@@ -6,8 +6,8 @@ var note = {
 };
 var id = 1;
 $.ajax({
-    url: baseUrl + '/notes/' + id,
-    type: 'PUT',
+    url: baseUrl + '/notes',
+    type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify(note)
 }).done(function (response) {
