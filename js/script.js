@@ -11,7 +11,7 @@ $.ajax({
     contentType: 'application/json',
     data: JSON.stringify(note)
 }).done(function (response) {
-    // handle success
+    alert(response);
 }).fail(function (response, code) {
     // handle failure
 });
