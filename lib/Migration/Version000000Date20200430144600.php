@@ -1,6 +1,6 @@
 <?php
 
-  namespace OCA\grafanadelamor\Migration;
+  namespace OCA\grafana\Migration;
 
   use Closure;
   use OCP\DB\ISchemaWrapper;
@@ -19,8 +19,8 @@
         /** @var ISchemaWrapper $schema */
         $schema = $schemaClosure();
 
-        if (!$schema->hasTable('grafanadelamor')) {
-            $table = $schema->createTable('grafanadelamor');
+        if (!$schema->hasTable('grafana')) {
+            $table = $schema->createTable('grafana');
             $table->addColumn('id', 'integer', [
                 'autoincrement' => true,
                 'notnull' => true,
@@ -39,7 +39,7 @@
             ]);
 
             $table->setPrimaryKey(['id']);
-            $table->addIndex(['user_id'], 'grafanadelamor_user_id_index');
+            $table->addIndex(['user_id'], 'grafana_user_id_index');
         }
         return $schema;
     }
