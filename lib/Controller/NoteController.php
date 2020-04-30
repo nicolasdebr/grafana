@@ -3,6 +3,7 @@
 
  use OCP\IRequest;
  use OCP\AppFramework\Controller;
+ use OCP\AppFramework\Http\TemplateResponse;
 
  class NoteController extends Controller {
 
