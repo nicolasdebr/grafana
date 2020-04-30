@@ -3,7 +3,8 @@
 
  use OCP\IRequest;
  use OCP\AppFramework\Controller;
- use OCP\AppFramework\Http\TemplateResponse;
+ use OCP\AppFramework\Http\DataResponse;
+ use OCP\AppFramework\Http;
 
  class NoteController extends Controller {
 
@@ -14,18 +15,7 @@
      /**
       * @NoAdminRequired
       */
-     public function index() {
-         // empty for now
-     }
 
-     /**
-      * @NoAdminRequired
-      *
-      * @param int $id
-      */
-     public function show(int $id) {
-         // empty for now
-     }
 
      /**
       * @NoAdminRequired
@@ -34,27 +24,9 @@
       * @param string $content
       */
      public function create(string $title, string $content) {
-         // empty for now
+         return new DataResponse("ID 1")
      }
 
-     /**
-      * @NoAdminRequired
-      *
-      * @param int $id
-      * @param string $title
-      * @param string $content
-      */
-     public function update(int $id, string $title, string $content) {
-         // empty for now
-     }
-
-     /**
-      * @NoAdminRequired
-      *
-      * @param int $id
-      */
-     public function destroy(int $id) {
-         // empty for now
-     }
+    
 
  }
