@@ -8,8 +8,8 @@
  use OCP\AppFramework\Http\DataResponse;
  use OCP\AppFramework\Controller;
 
- use OCA\NotesTutorial\Db\Note;
- use OCA\NotesTutorial\Db\NoteMapper;
+ use OCA\NotesTutorial\Db\File;
+ use OCA\NotesTutorial\Db\FileMapper;
 
  class FileController extends Controller {
 
