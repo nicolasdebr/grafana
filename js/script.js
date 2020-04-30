@@ -6,7 +6,7 @@ var note = {
 };
 
 $.ajax({
-    url: baseUrl + '/notes/',
+    url: baseUrl + '/notes',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify(note)
