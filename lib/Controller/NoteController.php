@@ -1,5 +1,5 @@
 <?php
- namespace OCA\NotesTutorial\Controller;
+ namespace OCA\grafana\Controller;
 
  use OCP\IRequest;
  use OCP\AppFramework\Controller;
