@@ -7,7 +7,7 @@
  use OCP\AppFramework\Http;
  use OCA\MyApp\Db\File;
 
- class NoteController extends Controller {
+ class FileController extends Controller {
 
      public function __construct(string $AppName, IRequest $request){
          parent::__construct($AppName, $request);
